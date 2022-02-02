@@ -1,2 +1,3 @@
 venv/
 sounds/
+__pycache__/
