@@ -1,0 +1,8 @@
+black==22.1.0
+click==8.0.3
+colorama==0.4.4
+mypy-extensions==0.4.3
+pathspec==0.9.0
+platformdirs==2.4.1
+pygame==2.1.2
+tomli==2.0.0
