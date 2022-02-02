@@ -11,11 +11,12 @@ if __name__ == "__main__":
 
     # assume key press
     while True:
-        if input("what key\n") == "f1":
+        user_input = input("Enter a key to play audio: ")
+        if user_input == "f1":
             player.load_audio_file(config.audio_folder + "\\" + keybinds[1][1])
             player.play_audio_file()
 
-        elif input("what key/n") == "f2":
+        elif user_input == "f2":
             player.load_audio_file(config.audio_folder + "\\" + keybinds[2][1])
             player.play_audio_file()
         else:
